@@ -68,6 +68,18 @@ There are two possible ways to submit this project to Canvas. Lambda Staff will 
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics.
 
 1. Differences between using _sessions_ or _JSON Web Tokens_ for authentication.
+
+cookies are used to store the session compared to tokens that store just the important information.
+
 2. What does `bcryptjs` do to help us store passwords in a secure manner?
+
+By hashing the password X amount of times in order for the password to no longer be stored in plain text.
+
 3. How are unit tests different from integration and end-to-end testing?
+
+They isolate each "unit" for testing compared to the whole project.
+
 4. How does _Test Driven Development_ change the way we write applications and tests?
+
+
+By writing the tests and then writing the code, you view your code a lot differently. you then refactor it to be as efficient as possible
